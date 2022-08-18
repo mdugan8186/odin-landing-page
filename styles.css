@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
 body {
-    height: 100vh;
     margin: 0;
+    padding: 0;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -40,7 +43,7 @@ a {
     display: flex;
     background-color: #1F2937;
     justify-content: center;
-    height: 300px;
+    height: 400px;
     gap: 200px;
 }
 
@@ -90,6 +93,7 @@ a {
 .random {
     display: flex;
     flex-direction: column;
+    height: 400px;
 }
 
 .info {
@@ -138,4 +142,29 @@ a {
     text-align: center;
     color: #1F2937;
     margin-top: 10px;
+}
+
+/*quote*/
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.mainquote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;   
+    font-weight: 300;
+    margin: 0 325px;
+    color: #1F2937;
+}
+
+.signature {
+    font-size: 28px;
+    align-self: flex-end;
+    margin-right: 325px;
 }
